@@ -1,0 +1,61 @@
+{
+  "products": [
+    {
+      "id": 7,
+      "url": "#",
+      "title": "Annapurna Ranges Mountain Treks",
+      "text": "Nepal, Kathmandu",
+      "labels": "",
+      "star": "5",
+      "price": "749 €",
+      "review": "(7k Reviews)",
+      "className": "price-360",
+      "image": "destination-7.webp"
+    },
+    {
+      "id": 8,
+      "url": "#",
+      "title": "Hiking in Yosemite National Park",
+      "star": "3.9",
+      "review": "(327 Reviews)",
+      "price": "989 €",
+      "text": "North America, California",
+      "className": "price-360",
+      "image": "destination-8.webp"
+    },
+    {
+      "id": 9,
+      "url": "#",
+      "title": "Balmy Beach Tour",
+      "className": "price-360",
+      "star": "4.2",
+      "price": "459 €",
+      "review": "(10k Reviews)",
+      "text": "Mozambique, Africa",
+      "labels": [
+        {
+          "type": "sale",
+          "value": "-50%"
+        }
+      ],
+      "image": "destination-9.webp"
+    },
+    {
+      "id": 10,
+      "url": "#",
+      "title": "Bay of Fires",
+      "className": "price-360",
+      "price": "2099 €",
+      "star": "4.9",
+      "review": "(2k Reviews)",
+      "text": "Tasmania, Australia",
+      "labels": [
+        {
+          "type": "new",
+          "value": "New"
+        }
+      ],
+      "image": "destination-10.webp"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+.hero {
+    display: none;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px;
+    background: rgba(249, 72, 81, 0.07);
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.hero.display-block {
+    display: block;
+    visibility: visible;
+}
+
+.hero-wrapper {
+    padding-top: $section-spacing;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 75px;
+}
+
+.content-hero {
+    &__label {
+        opacity: 0;
+        background: $bg-misty-rose;
+        color: $text-light-coral;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: max-content;
+        gap: 20px;
+        padding: 10px 20px;
+        transition: $transition-2;
+        border-radius: $radius-pill;
+        animation: slideIn-hero 0.8s ease forwards;
+        animation-delay: 0.3s;
+
+        &:is(:hover, :focus-visible) {
+            color: white;
+            box-shadow: $shadow-2;
+            background-color: $bg-ocean-blue;
+        }
+    }
+
+    &__label-text {
+        font-size: $fontSize-6;
+    }
+
+    &__heading {
+        opacity: 0;
+        width: 100%;
+        color: $text-gunmetal;
+        font-weight: $weight-bold;
+        line-height: 1.45;
+        font-size: $fontSize-1;
+        margin: 15px 0;
+        animation: slideIn-hero 0.8s ease forwards;
+        animation-delay: 0.6s;
+
+        & span {
+            background: linear-gradient(100deg, $bg-ocean-blue 5%, darken($bg-ocean-blue, 10%) 55%);
+            display: inline-block;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    }
+
+    &__text {
+        font-size: $fontSize-5;
+        opacity: 0;
+        animation: slideIn-hero 0.8s ease forwards;
+        animation-delay: 0.9s;
+    }
+
+    &__button {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 36px;
+        margin-top: 36px;
+    }
+}
+
+
+.button-secondary {
+    background: $bg-red-salsa;
+    border-radius: $radius-pill;
+    display: flex;
+    width: max-content;
+    align-items: center;
+    justify-content: space-between;
+    color: $bg-white;
+    text-align: center;
+    padding: 13px 32px;
+    transition: $transition-2;
+    opacity: 0;
+    animation: slideIn-hero 0.8s ease forwards;
+    animation-delay: 1.2s;
+
+    &:is(:hover, :focus-visible) {
+        box-shadow: $shadow-2;
+        background-color: $bg-ocean-blue;
+    }
+
+    & span {
+        font-size: $fontSize-5;
+        font-weight: $weight-medium;
+    }
+
+    & ion-icon {
+        font-size: $fontSize-4;
+    }
+}
+
+.button-hero {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: max-content;
+    gap: 30px;
+    font-size: $fontSize-5;
+    transition: $transition-2;
+    color: $text-gunmetal;
+    font-weight: $weight-bold;
+    opacity: 0;
+    animation: slideIn-hero 0.8s ease forwards;
+    animation-delay: 1.5s;
+
+    &:is(:hover, :focus-visible) {
+        color: $bg-ocean-blue;
+    }
+
+
+    & ion-icon {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        z-index: 5;
+        background: white;
+        box-shadow: $shadow-1;
+        border-radius: 50%;
+        padding: 10px;
+        font-size: $fontSize-4;
+        transform: translate(120%, -50%);
+    }
+
+    &__img {
+        position: relative;
+        display: block;
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.banner-hero {
+    opacity: 0;
+    animation: slideIn-hero 0.8s ease forwards;
+    animation-delay: 1.8s;
+
+    &__img {
+        width: 100%;
+    }
+}
+
+@keyframes slideIn-hero {
+    0% {
+        opacity: 0;
+        transform: translateY(-20%);
+    }
+
+    15% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,158 @@
+.footer {
+    color: $text-granite-gray;
+
+    &__legal {
+        padding: 36px 0;
+    }
+
+    &__copy {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgb(235, 235, 235);
+}
+
+.footer-item {
+    min-height: 210px;
+    margin-right: 40px;
+
+    &:first-child {
+        max-width: 260px;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &:nth-child(5) {
+        max-width: 230px;
+    }
+
+    &__img {
+        margin-bottom: 32px;
+    }
+
+    &__text {
+        display: block;
+        margin-bottom: 32px;
+    }
+
+    &__social {
+        display: flex;
+        align-items: center;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item {
+        margin-bottom: 18px;
+
+        &:last-child {
+            margin-bottom: 0;
+            margin-right: 0;
+        }
+    }
+
+    &__link {
+        transition: $transition-2;
+
+        &:is(:hover, :focus-visible) {
+            color: $text-majorelle-blue !important;
+        }
+    }
+}
+
+.social {
+    &__link {
+        color: $bg-majorelle-blue;
+        font-size: 3rem;
+        margin-right: 25px;
+        transition: $transition-2;
+
+        &:is(:hover, :focus-visible) {
+            color: $bg-ocean-blue;
+        }
+
+        & ion-icon {
+            font-size: 3rem;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    &__input {
+        padding: 12px 20px;
+        border: 3px solid $bg-majorelle-blue-alpha-5;
+        border-radius: $radius-pill;
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        margin-right: 7px;
+        font-size: $fontSize-5;
+        border-radius: 50%;
+        padding: 13px;
+        color: white;
+        background: $bg-majorelle-blue;
+        right: 0;
+        transition: $transition-2;
+        transform: translate(0, -50%);
+
+        &:is(:hover, :focus-visible) {
+            background-color: $bg-ocean-blue;
+        }
+
+        & ion-icon {
+            transform: rotate(45deg);
+        }
+    }
+}
+
+.anivia {
+    color: $text-majorelle-blue;
+    font-weight: bold;
+}
+
+.state {
+    &__link {
+        transition: $transition-2;
+
+        :is(:hover, :focus-within) {
+            color: $text-majorelle-blue;
+        }
+    }
+}
+
+.state-terms {
+    margin-right: 30px;
+}
+
+.footer-item-header {
+    margin-bottom: 32px;
+    font-size: $fontSize-5;
+    font-weight: bold;
+    color: $text-gunmetal;
+}

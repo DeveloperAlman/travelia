@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:url" content="https://travelia-tours.netlify.app/">
+    <meta name="title" content="Travelia - Explore the world">
+    <meta name="description"
+        content="Travelia provides all types of travel services and specializes in tourism with discounts, travel packages, and also provides information.">
+    <meta name="keywords" content="Cheap flights, hotels, vacation packages, events">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Anivia Marketing Agency">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#6247fa">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="theme-color" content="#ffffff">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;500;600;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Travelia &mdash; Explore the world</title>
+</head>
+
+<body>
+    <section class="preloader" data-preloader>
+        <div class="container">
+            <div class="preloader-wrapper">
+                <img src="img/preloader.svg" alt="" class="preloader-wrapper__img">
+            </div>
+        </div>
+    </section>
+
+    <header class="header" id="header" data-header>
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__wrapper">
+                    <div class="header__logo logo-header">
+                        <a href="#hero" class="logo-header__link">
+                            <img src="img/logo.svg" alt="" class="logo-header__img">
+                        </a>
+                    </div>
+
+                    <nav class="header__nav">
+                        <ul class="header__nav-list">
+                            <li class="header__nav-item"><a href="#hero" class="header__nav-link">Home</a></li>
+                            <li class="header__nav-item"><a href="#features" class="header__nav-link">Services</a>
+                            </li>
+                            <li class="header__nav-item"><a href="#destination"
+                                    class="header__nav-link">Destinations</a></li>
+                            <li class="header__nav-item"><a href="#exp" class="header__nav-link">About</a>
+                            </li>
+                            <li class="header__nav-item"><a href="#footer" class="header__nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="header__btn-wrapper desktop-btn">
+                        <a href="#" class="desktop-btn__login">Login</a>
+                        <a href="#" class="desktop-btn__login btn btn-primary">Sign Up</a>
+                    </div>
+
+                    <button class="nav-toggle-btn" data-navbar-toggler aria-label="open navbar menu">
+                        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <div class="header__navigation-wrapper" data-navigation>
+                    <nav class="header__navbar navbar" data-navbar>
+                        <div class="navbar__top">
+                            <a href="#" class="logo-header__link">
+                                <img src="img/logo.svg" alt="" class="logo-header__img">
+                            </a>
+                            <button class="nav-toggle-btn" aria-label="close mobile menu" data-navbar-toggler>
+                                <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                            </button>
+                        </div>
+
+                        <div class="navbar__middle">
+                            <ul class="navbar__list">
+                                <li class="navbar__item">
+                                    <a href="#" class="navbar__link">Home</a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a href="#" class="navbar__link">About</a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a href="#" class="navbar__link">Services</a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a href="#" class="navbar__link">Pricing</a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a href="#" class="navbar__link">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="navbar__bottom">
+                            <a href="#" class="navbar__login">Login</a>
+                            <a href="#" class="navbar__signup btn btn-primary">Sign Up</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content" data-scroll-container data-main-content>
+        <section class="hero" id="hero" data-hero data-scroll-section>
+            <div class="container">
+                <div class="hero-wrapper">
+                    <div class="hero__content content-hero">
+                        <a href="#destination" class="content-hero__label" data-hero-label>
+                            <p class="content-hero__label-text">Explore the World</p>
+                            <img class="content-hero__label-img" src="img/title-icon.svg" alt="world icon">
+                        </a>
+
+                        <h1 class="content-hero__heading" data-hero-heading>
+                            It's a Big World Out There, <span>Go</span> <span>Explore</span>
+                        </h1>
+
+                        <p class="content-hero__text" data-hero-text>We always make our customer happy by providing
+                            as many choices as possible</p>
+                        <div class="content-hero__button button">
+                            <a href="#destination" class="button-secondary" data-hero-link>
+                                <span>Plan a Trip</span>
+                                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+                            </a>
+                            <a href="https://youtu.be/XoASzLJ6rk4" target="_blank" class="button-hero" data-hero-btn>
+                                <img class="button-hero__img" src="img/hero-button-img.webp" alt="our story">
+                                <ion-icon name="play" aria-hidden="true"></ion-icon>
+                                <p class="button-hero__text">Watch our Story</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="hero__banner banner-hero" data-hero-banner>
+                        <img src="img/hero-banner.webp" alt="hero banner" class="banner-hero__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features" id="features" data-scroll-section data-features>
+            <div class="container">
+                <div class="features__wrapper">
+                    <div class="feature__wrapper">
+                        <div class="features__content content-features">
+                            <p class="content-features__subheading">What We Serve</p>
+                            <h2 class="content-features__heading">Top Values For <span>You</span></h2>
+                            <p class="content-features__text">Try a variety of benefits when
+                                using our services
+                            </p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature__icon">
+                                <img src="img/service-icon-1.svg" alt="icon">
+                            </div>
+                            <div class="feature__content content-feature">
+                                <h3 class="content-feature__heading">Lot Of Choices</h3>
+                                <p class="content-feature__text">Total 460+ destinations that we work with</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature__icon">
+                                <img src="img/service-icon-2.svg" alt="icon">
+                            </div>
+                            <div class="feature__content content-feature">
+                                <h3 class="content-feature__heading">Best Tour Guide</h3>
+                                <p class="content-feature__text">Our tour guide with 15+ years of experience</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature__icon">
+                                <img src="img/service-icon-3.svg" alt="icon">
+                            </div>
+                            <div class="feature__content content-feature">
+                                <h3 class="content-feature__heading">Easy Booking</h3>
+                                <p class="content-feature__text">With an easy and fast ticket purchase process</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="destination" id="destination" data-scroll-section>
+            <div class="container">
+                <div class="features__content content-features">
+                    <p class="destination-text-align content-features__subheading">Destination</p>
+                    <h2 class="destination-text-align content-features__heading">Explore Best <span>Destinations</span>
+                    </h2>
+                </div>
+                <div class="destination__wrapper">
+                    <div class="destination-card" data-pid="1">
+                        <div class="price">360 €</div>
+                        <div class="destination-card__img">
+                            <img src="img/destination-1.webp" alt="Enjoy the Beauty of the del Pincio" loading="lazy">
+                        </div>
+                        <a href="#destination" class="destination-card__link">
+                            <div class="destination-card__content destination-content">
+                                <h3 class="destination-content__heading content-feature__heading">Enjoy the beauty of
+                                    del Bellisim Pincio</h3>
+                                <p class="destination-content__location content-feature__text">Rome, Italy</p>
+
+                            </div>
+                            <div class="destination-card__review destination-review">
+                                <p class="destination-review__star">
+                                    <ion-icon name="star" aria-hidden="true"></ion-icon>4.7
+                                </p>
+                                <p class="destination-review__number">(11.1k Reviews)</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="destination-card" data-pid="2">
+                        <div class="price">809 €</div>
+                        <div class="destination-card__img">
+                            <img src="img/destination-2.webp" alt="Enjoy the Beauty of the del Pincio" loading="lazy">
+                        </div>
+                        <a href="#destination" class="destination-card__link">
+                            <div class="destination-card__content destination-content">
+                                <h3 class="destination-content__heading content-feature__heading">Enjoy the beauty of
+                                    Pakistan Monument</h3>
+                                <p class="destination-content__location content-feature__text">Islamabad, Pakistan</p>
+
+                            </div>
+                            <div class="destination-card__review destination-review">
+                                <p class="destination-review__star">
+                                    <ion-icon name="star" aria-hidden="true"></ion-icon>4.5
+                                </p>
+                                <p class="destination-review__number">
+                                    (16.9k Reviews)</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="destination-card" data-pid="3">
+                        <div class="price">1499 €</div>
+                        <div class="destination-card__img">
+                            <img src="img/destination-3.webp" alt="Enjoy the Beauty of the del Pincio" loading="lazy">
+                        </div>
+                        <a href="#destination" class="destination-card__link">
+                            <div class="destination-card__content destination-content">
+                                <h3 class="destination-content__heading content-feature__heading">Enjoy the beauty of
+                                    Burj Khalifa State</h3>
+                                <p class="destination-content__location content-feature__text">Skyscraper in Dubai</p>
+
+                            </div>
+                            <div class="destination-card__review destination-review">
+                                <p class="destination-review__star">
+                                    <ion-icon name="star" aria-hidden="true"></ion-icon>4.6
+                                </p>
+                                <p class="destination-review__number">(120k Reviews)</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="destination-card" data-pid="4">
+                        <div class="price">699 €</div>
+                        <div class="destination-card__img">
+                            <img src="img/destination-4.webp" alt="Enjoy the Beauty of the del Pincio" loading="lazy">
+                        </div>
+                        <a href="#destination" class="destination-card__link">
+                            <div class="destination-card__content destination-content">
+                                <h3 class="destination-content__heading content-feature__heading">Enjoy the beauty of
+                                    Milaidhoo</h3>
+                                <p class="destination-content__location content-feature__text">Heaven Island, Maldives
+                                </p>
+
+                            </div>
+                            <div class="destination-card__review destination-review">
+                                <p class="destination-review__star">
+                                    <ion-icon name="star" aria-hidden="true"></ion-icon>4.4
+                                </p>
+                                <p class="destination-review__number">(2k Reviews)</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="destination-card" data-pid="5">
+                        <div class="price">299 €</div>
+                        <div class="destination-card__img">
+                            <img loading="lazy" src="img/destination-5.webp" alt="Enjoy the Beauty of the del Pincio">
+                        </div>
+                        <a href="#destination" class="destination-card__link">
+                            <div class="destination-card__content destination-content">
+                                <h3 class="destination-content__heading content-feature__heading">Enjoy the beauty of
+                                    the Ko Tao Gulf</h3>
+                                <p class="destination-content__location content-feature__text">Gulf Islnad, Thailand</p>
+
+                            </div>
+                            <div class="destination-card__review destination-review">
+                                <p class="destination-review__star">
+                                    <ion-icon name="star" aria-hidden="true"></ion-icon>4.3
+                                </p>
+                                <p class="destination-review__number">(87k Reviews)</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="destination-card price-1249" data-pid="6">
+                        <div class="price">1249 €</div>
+                        <div class="destination-card__img">
+                            <img loading="lazy" src="img/destination-6.webp" alt="Enjoy the Beauty of the del Pincio">
+                        </div>
+                        <a href="#destination" class="destination-card__link">
+                            <div class="destination-card__content destination-content">
+                                <h3 class="destination-content__heading content-feature__heading">Enjoy the beauty of
+                                    Grand Mecidiye Mosque</h3>
+                                <p class="destination-content__location content-feature__text">Mosque in Istanbul,
+                                    Türkiye</p>
+
+                            </div>
+                            <div class="destination-card__review destination-review">
+                                <p class="destination-review__star">
+                                    <ion-icon name="star" aria-hidden="true"></ion-icon>4.9
+                                </p>
+                                <p class="destination-review__number">(29.6k Reviews)</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="destination__btn-wrapper"><a href="#" class="destination__btn">View All Destinations</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience" id="exp" data-scroll-section>
+            <div class="container">
+                <div class="experience__wrapper">
+                    <div class="experience-banner">
+                        <div class="experience-banner__wrapper">
+                            <img src="img/exp-shape.svg" alt="24/7 Guide Support" class="experience-banner__svg">
+                        </div>
+                        <img src="img/experience-banner.webp" loading="lazy" alt="experience banner"
+                            class="experience-banner__img">
+                    </div>
+                    <div class="experience-content">
+                        <div class="features__content content-features">
+                            <p class="content-features__subheading">Our Experience</p>
+                            <h2 class="content-features__heading">With Our Experience
+                                <span>We'll Serve You</span></h2>
+                            <p class="experience-content__text content-hero__text" data-hero-text>Since we first opened
+                                we have always
+                                prioritized the convenience of our users by providing low prices and with a easy process
+                            </p>
+                        </div>
+                        <div class="experience-content__adv content-adv">
+                            <div class="content-adv__item adv">
+                                <p class="adv__heading content-feature__heading">20</p>
+                                <p class="adv__text content-feature__text">Years
+                                    Experience</p>
+                            </div>
+                            <div class="content-adv__item adv">
+                                <p class="adv__heading content-feature__heading">50k+</p>
+                                <p class="adv__text content-feature__text">Happy
+                                    Customer</p>
+                            </div>
+                            <div class="content-adv__item adv">
+                                <p class="adv__heading content-feature__heading">460+</p>
+                                <p class="adv__text content-feature__text">Destination
+                                    Collaboration</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery" id="gallery" data-scroll-section>
+            <div class="container">
+                <div class="features__content content-features">
+                    <p class="destination-text-align content-features__subheading">Gallery</p>
+                    <h2 class="destination-text-align content-features__heading">Photo's from our <span>Clients</span>
+                    </h2>
+                </div>
+                <div class="gallery__grid grid-gallery">
+                    <div class="grid-gallery__item">
+                        <img src="img/gallery-1.webp" alt="gallery" loading="lazy">
+                    </div>
+                    <div class="grid-gallery__item">
+                        <img src="img/gallery-2.webp" alt="gallery" loading="lazy">
+                    </div>
+                    <div class="grid-gallery__item">
+                        <img src="img/gallery-3.webp" alt="gallery" loading="lazy">
+                    </div>
+                    <div class="grid-gallery__item">
+                        <img src="img/gallery-4.webp" alt="gallery" loading="lazy">
+                    </div>
+                    <div class="grid-gallery__item">
+                        <img src="img/gallery-5.webp" alt="gallery" loading="lazy">
+                    </div>
+                    <div class="grid-gallery__item">
+                        <img src="img/gallery-6.webp" alt="gallery" loading="lazy">
+                    </div>
+                    <div class="grid-gallery__item">
+                        <img src="img/gallery-7.webp" alt="gallery" loading="lazy">
+                    </div>
+                    <div class="grid-gallery__item">
+                        <img src="img/gallery-10.webp" alt="gallery" loading="lazy">
+                    </div>
+                    <div class="grid-gallery__item">
+                        <img src="img/gallery-11.webp" alt="gallery" loading="lazy">
+                    </div>
+                    <div class="grid-gallery__item">
+                        <img src="img/gallery-12.webp" alt="gallery" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta" id="cta" data-scroll-section>
+            <div class="container">
+                <div class="cta__wrapper">
+                    <div class="cta__content cta-content">
+                        <h2 class="cta-content__heading content-hero__heading">Prepare Yourself! Let's Explore The
+                            Beauty Of The World
+                            <span><img src="img/title-icon.svg" alt="icon" class="cta-icon"></span></h2>
+                        <p class="cta-content__text content-feature__text">
+                            We have many special offers especially for you</p>
+                        <a href="#" class="cta-content__btn navbar__signup btn btn-primary">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer" id="footer" data-scroll-section>
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="footer-item">
+                        <img src="img/logo.svg" alt="" class="footer-item__img">
+                        <p class="footer-item__text">We always make our customers happy by providing as many choices as
+                            possible</p>
+                        <div class="footer-item__social social">
+                            <a href="#" class="social__link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                            <a href="#" class="social__link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                            <a href="#" class="social__link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-item">
+                        <p class="footer-item__item footer-item-header">About</p>
+                        <nav class="footer-item__nav">
+                            <ul class="footer-item__list">
+                                <li class="footer-item__item"><a href="#" class="footer-item__link">About Us</a></li>
+                                <li class="footer-item__item"><a href="#" class="footer-item__link">Features</a></li>
+                                <li class="footer-item__item"><a href="#" class="footer-item__link">News</a></li>
+                                <li class="footer-item__item"><a href="#" class="footer-item__link">Menu</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer-item">
+                        <p class="footer-item__item footer-item-header">Company</p>
+                        <nav class="footer-item__nav">
+                            <ul class="footer-item__list">
+                                <li class="footer-item__item"><a href="#" class="footer-item__link">Why Us</a></li>
+                                <li class="footer-item__item"><a href="#" class="footer-item__link">Partner With Us</a>
+                                </li>
+                                <li class="footer-item__item"><a href="#" class="footer-item__link">FAQ</a></li>
+                                <li class="footer-item__item"><a href="#" class="footer-item__link">Blog</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer-item">
+                        <p class="footer-item__item footer-item-header">Support</p>
+                        <nav class="footer-item__nav">
+                            <ul class="footer-item__list">
+                                <li class="footer-item__item"><a href="#" class="footer-item__link">Account</a></li>
+                                <li class="footer-item__item"><a href="#" class="footer-item__link">Support Center</a>
+                                </li>
+                                <li class="footer-item__item"><a href="#" class="footer-item__link">Feedback</a></li>
+                                <li class="footer-item__item"><a href="#" class="footer-item__link">Contact Us</a></li>
+                                <li class="footer-item__item"><a href="#" class="footer-item__link">Accessibility</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer-item">
+                        <p class="footer-item__item footer-item-header">Get in Touch</p>
+                        <p class="footer-item__text">Question or feedback? We'd love to hear from you</p>
+                        <form action="#" autocomplete="on" class="footer-item__form form">
+                            <input type="email" class="form__input" placeholder="Email:">
+                            <button aria-label="Send message" class="form__btn">
+                                <ion-icon name="paper-plane-outline" aria-hidden="true"></ion-icon>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer__legal">
+                    <div class="footer__copy">
+                        <div class="footer__copy-text">
+                            <p>© <span class="current-year">2023</span> Travelia AB. Developed by
+                                <a class="anivia" href="https://anivia.se" target="_blank">Anivia Marketing Agency</a>
+                            </p>
+                        </div>
+                        <aside class="footer__copy-statements state">
+                            <a href="#" class="state__link state-terms">
+                                Terms and Condition</a>
+                            <a href="#" class="state__link state-policy">Privacy and Policy</a>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script defer type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script defer nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

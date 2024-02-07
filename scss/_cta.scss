@@ -1,0 +1,34 @@
+.cta {
+    padding-bottom: $section-spacing;
+
+    &__wrapper {
+        background: rgba(249, 72, 81, 0.07);
+        border-radius: 26px;
+        padding: 80px 10px;
+    }
+
+    &__content {
+        padding: 20px 0;
+        max-width: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+.cta-content {
+    text-align: center;
+
+    &__heading {
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        margin-bottom: 40px;
+    }
+}
+
+.cta-icon {
+    width: 40px;
+}

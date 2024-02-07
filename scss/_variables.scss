@@ -1,0 +1,61 @@
+// ### Background color
+$bg-white: hsl(0, 0%, 100%);
+$bg-black-alpha-20: hsla(0, 0%, 0%, 0.2);
+$bg-lavender-blush: rgb(255, 250, 250);
+$bg-majorelle-blue: #6247fa;
+$bg-ocean-blue: hsl(249, 63%, 54%);
+$bg-majorelle-blue-alpha-5: hsla(249, 95%, 63%, 0.07);
+$bg-misty-rose: rgb(255, 221, 221);
+$bg-red-salsa: rgb(249, 72, 81);
+$bg-red-salsa-alpha-5: hsla(357, 94%, 63%, 0.07);
+$bg-english-vermillion: hsl(357, 64%, 53%);
+$bg-chrome-yellow-alpha-5: hsla(40, 100%, 50%, 0.07);
+$bg-sunglow-alpha-10: hsla(48, 100%, 50%, 0.15);
+$bg-gainsboro: hsl(0, 0%, 85%);
+
+// ### Text color
+$text-white: hsl(0, 0%, 100%);
+$text-gunmetal: #333;
+$text-light-coral: hsl(357, 96%, 73%);
+$text-granite-gray: hsl(0, 0%, 30%);
+$text-majorelle-blue: hsl(249, 95%, 63%);
+$text-sunglow: hsl(48, 100%, 50%);
+
+// ### Border color
+$border-gainsboro: hsl(0, 1%, 85%);
+
+// ## Typography
+$ff-poppins: 'Poppins',
+sans-serif;
+
+$fontSize-1: 4.2rem;
+$fontSize-2: 3.8rem;
+$fontSize-3: 2.5rem;
+$fontSize-4: 2.4rem;
+$fontSize-5: 2rem;
+$fontSize-6: 1.6rem;
+$fontSize-7: 1.5rem;
+
+$weight-bold: 700;
+$weight-semiBold: 600;
+$weight-medium: 500;
+
+// ## Spacing
+$section-spacing: 120px;
+
+// ## Shadow
+$shadow-1: 0 10px 20px rgba(21, 36, 50, 0.02);
+$shadow-2: 0 10px 20px rgba(98, 71, 250, 0.2);
+$shadow-3: 0 5px 10px rgba(212, 58, 66, 0.25);
+$shadow-4: 20px 30px 50px rgba(212, 58, 66, 0.06);
+
+// ## Border Radius
+$radius-pill: 200px;
+$radius-circle: 50%;
+$radius-30: 30px;
+$radius-20: 20px;
+
+// ## Transition
+$transition-1: all 250ms ease;
+$transition-2: all 650ms ease;
+$cubic-out: cubic-bezier(0.05, 0.83, 0.52, 0.97);
